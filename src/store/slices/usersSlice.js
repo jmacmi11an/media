@@ -7,3 +7,5 @@ const usersSlice = createSlice({
     },
     reducers: {}
 });
+
+export const usersReducer = usersSlice.reducer;
