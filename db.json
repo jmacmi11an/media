@@ -1,36 +1,12 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
-    },
-    {
-      "name": "Clara McDermott III",
-      "id": 2
-    },
-    {
-      "name": "Hugo Marvin",
-      "id": 3
-    },
-    {
-      "name": "Arturo Pouros",
-      "id": 4
-    },
-    {
-      "name": "Rudy Raynor",
-      "id": 5
-    },
-    {
-      "name": "Danielle Cormier",
+      "name": "Melba Nolan PhD",
       "id": 6
     },
     {
-      "name": "Rita Waters",
+      "name": "Jordan Goodwin",
       "id": 7
-    },
-    {
-      "name": "Ramiro Bartell",
-      "id": 8
     }
   ],
   "albums": [],
