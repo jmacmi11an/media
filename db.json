@@ -22,6 +22,16 @@
       "id": 10,
       "title": "Hiking Trip",
       "userId": 6
+    },
+    {
+      "userId": 6,
+      "title": "Oriental Concrete Bacon",
+      "id": 11
+    },
+    {
+      "userId": 6,
+      "title": "Ergonomic Soft Soap",
+      "id": 12
     }
   ],
   "photos": []
