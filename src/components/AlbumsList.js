@@ -28,5 +28,5 @@ function AlbumsList({ user }) {
         Albums for {user.name}
     </div>
 }
-
+ 
 export default AlbumsList
