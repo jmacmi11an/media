@@ -29,4 +29,5 @@ function AlbumsList({ user }) {
     </div>
 }
 
+
 export default AlbumsList
