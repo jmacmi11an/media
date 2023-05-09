@@ -5,14 +5,24 @@
       "id": 6
     },
     {
-      "name": "Jordan Goodwin",
-      "id": 7
-    },
-    {
       "name": "Mr. Diana Lockman",
       "id": 8
+    },
+    {
+      "name": "Sonia Raynor",
+      "id": 10
+    },
+    {
+      "name": "Luke Carter",
+      "id": 13
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 6
+    }
+  ],
   "photos": []
 }

@@ -1,12 +1,13 @@
-import { useEffect } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import { useSelector } from 'react-redux';
 import { fetchUsers, addUser } from "../store";
 import { useThunk } from "../hooks/use-thunk";
 import Button from './Button';
 import Skeleton from "./Skeleton";
 import { render } from "@testing-library/react";
-import UsersListItem from "./UsersListItem";
+// import UsersListItem from "./UsersListItem";
 
+const UsersListItem = lazy(() => import("./UsersListItem"))
 
 function UsersList () {
     const [doFetchUsers, isLoadingUsers, loadingUsersError] = useThunk(fetchUsers);
@@ -30,7 +31,11 @@ function UsersList () {
         content = <div> Error fetching data...</div>
     } else {
         content = data.map((user) => {
-            return <UsersListItem key={user.id} user={user}/>
+            return ( <div>
+                    <Suspense fallback="hello">
+                        <UsersListItem key={user.id} user={user}/>
+                    </Suspense>
+                </div>)
       
     })}
 

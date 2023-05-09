@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/tooklkit/query/react';
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const albumsApi = createApi({
     reducerPath: 'albums',
@@ -22,5 +22,5 @@ const albumsApi = createApi({
     }
 });
 
-export const {useFetchAlbumsQuery } = albumsApi;
+export const { useFetchAlbumsQuery } = albumsApi;
 export { albumsApi };
